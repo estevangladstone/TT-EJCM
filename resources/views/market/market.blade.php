@@ -31,6 +31,21 @@
         @endforeach
     </div>
 
+    <div id="carrinho" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Meu Carrinho</h4>
+                </div>
+                <div class="modal-body edit-content container-fluid">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 @endsection
 
 
