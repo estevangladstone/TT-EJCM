@@ -42,4 +42,5 @@ class ProductsController extends Controller
 
         return view('produtos',['products' => $products]);
     }
+
 }
